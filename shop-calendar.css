@@ -1,0 +1,46 @@
+
+.shop-calendar {
+	font-family: sans-serif;
+	max-width: 250px;
+	text-align: center;
+	color: #000;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+}
+.shop-calendar-table {
+	width:100%;
+	font-size: 14px;
+	background:#ffffff;
+	text-align: center;
+	border-collapse: collapse;
+	border-spacing: 0;
+	line-height: 1.2;
+}
+.shop-calendar-table th {
+	font-weight: normal;
+	text-align: center;
+	margin: 0;
+	padding: 2px;
+}
+.shop-calendar-table td {
+	font-size: 13px;
+	text-align: center;
+	font-weight: lighter;
+	margin: 0;
+	padding: 2px;
+}
+.shop-calendar-table .holiday {
+	color: #f00;
+}
+.shop-calendar-table .today {
+	font-weight: bold;
+}
+.shop-calendar-table .today-holiday {
+	color: #f00;
+	font-weight: bold;
+}
+.shop-calendar-table .caption {
+	font-size: 16px;
+	text-align: center;
+}
